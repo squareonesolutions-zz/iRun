@@ -1,0 +1,31 @@
+/* 
+
+Version : 1.0 
+Date:2011-01-16
+Author : anjie
+Author URL : http://www.fu-an.net
+
+*/
+
+
+/* -------------------------------------------------------------------------------------- google map skin black 01 */
+.wrap{ position:absolute; bottom:0;}
+
+.mapwrap{overflow:hidden; zoom:1; width:303px; float:left; display:inline; margin-left:47px; }
+
+.mapwrap .maptop{ background:url(../images/bl1_top.png) no-repeat; font-size:1px; overflow:hidden; width:303px; height:9px;}
+
+.mapwrap .mapmain{ background:url(../images/bl1_mid.png) repeat-y; width:273px; color:#fff; font:12px/24px normal Arial, Helvetica, sans-serif; padding:0 15px; overflow:hidden; zoom:1;}
+.mapwrap .mapmain h3{ font-size:14px; font-weight:700;}
+.mapwrap .mapmain .maptxt img{ float:right; margin-left:15px;}
+.mapwrap .mapmain .maptxt .mapnr{ background:url(../images/line.png) no-repeat right center; width:170px; padding:15px 0;}
+.wrap .mapshadow{ background:url(../images/bl1_sd.png) no-repeat; width:40px; height:123px; position:absolute; bottom:12px; left:350px;}
+
+.mapwrap .mapbot{ background:url(../images/bl1_bot.png) no-repeat; width:303px; height:24px;}
+
+
+
+
+
+.contact .gmap{ background:url(../images/mapshadow.gif) no-repeat; width:802px; height:502px; margin:15px auto; padding:5px;}
+.contact .gmap #mapbox{ width:100%; height:100%;}

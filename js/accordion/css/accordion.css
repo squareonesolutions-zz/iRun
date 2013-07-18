@@ -1,0 +1,256 @@
+
+/* Emergency CSS */
+
+.featured a element.style {
+	height: 70px;
+}
+
+
+
+
+#contentwrap, #footer{
+position:relative;
+width:1000px;
+margin:0 auto;
+clear: both;
+padding-left:0px !important; /*ie6fix*/
+padding-left:20px;
+z-index:1;
+}
+
+
+#footer{
+padding-top:40px;
+clear: both;
+}
+
+#head{
+z-index: 5;
+position: relative;
+width:800px;
+margin:0px auto;
+padding:0 20px;
+}
+
+#main{
+position: relative;
+z-index: 1;
+width:1000px;
+float: left;
+padding-top:30px;
+}
+
+#headwrap, #footerwrap{
+width:100%;
+clear: both;
+float: left !important; /* ie6fix */
+float: none;
+position: relative;
+z-index: 6;
+}
+
+/*Featuread Area*/
+
+
+#featured, .featured, .fadeout, .newsselect{ 
+height:320px; 			/*this changes the height of the image slider*/
+}
+
+#feature_wrap{
+width:799px;
+position: relative;
+margin-left:20px;
+}
+
+#featured{
+position: relative;
+width:797px;
+overflow: hidden;
+}
+
+
+
+.featured{
+width:700px;
+position:absolute;
+top:0;
+left:-20px;
+overflow: hidden;
+display:none;
+}
+
+#top .feature_excerpt{
+width:660px;
+position: absolute;
+display: block;
+bottom: 0;
+left:0;
+z-index: 3;
+padding:10px 20px;
+font-size: 14px;
+line-height:1.5em;
+cursor: pointer;
+text-align: left;
+font-family: iRunFont, Impact, Charcoal, Verdana;
+}
+
+.sliderdate{
+display:none;
+}
+
+/*accordion slider*/
+.featured img, .featured iframe, .featured object{
+	display:block;
+	position: relative;
+	z-index: 2;
+	left: -60px;
+}
+ 
+/* Apply this only to Firefox browsers (Mac and PC) */
+@-moz-document url-prefix() {
+	.featured img, .featured iframe, .featured object {
+		display:block;
+		position: relative;
+		z-index: 2;
+		left: 0px;
+	}
+}
+
+
+#top .fadeout{
+position:absolute;
+width:200px;
+display:block;
+right:0px;
+z-index: 4;
+}
+
+#top .sliderheading{
+display:block;
+font-size: 36px;
+padding: 5px 0px 10px 0px;
+font-family: iRunFont, Impact, Charcoal, Verdana;
+}
+
+#top .heading_clone{
+position: absolute;
+z-index: 4;
+top:240px;
+left:20px;
+font-size: 18px;
+text-transform: uppercase;
+padding:0;
+margin: 0;
+}
+
+
+.featured a, .featured a img, .featured img{
+text-decoration: none;
+border:none;
+}
+.featured a:hover, .featured a img:hover, .featured img:hover{
+	text-align: left;
+}
+
+#top .featured1{
+border:none;
+display: block;
+}
+
+
+.bottom_right_rounded_corner, .bottom_left_rounded_corner{
+position: absolute;
+z-index: 50;
+display: block;
+height:7px;
+width:7px;
+bottom:0px !important; /* ie6fix */
+left:0px;
+bottom:-1px;
+}
+
+#top .bottom_right_rounded_corner{
+right:0px !important; /* ie6fix */
+right:-1px;
+left:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style2.css */
+
+/*Featured Area*/
+
+#featured{
+border:1px solid #595959;
+border-top:none;
+}
+
+.featured{
+border-left:1px solid #595959;  
+background:#000 url(../images/skin2/preload.gif) no-repeat scroll 50% 50%;
+}
+
+#top .preloading_background {
+background:#191919 url(../images/skin2/preload.gif) no-repeat scroll 50% 50%;
+}
+
+#top .fadeout{
+background: transparent url(../images/skin2/overlay.png) repeat-y right top;
+}
+
+.bottom_left_rounded_corner{
+background: transparent url(../images/skin2/rounded.png) no-repeat left bottom;
+}
+.bottom_right_rounded_corner{
+background: transparent url(../images/skin2/rounded.png) no-repeat right bottom;
+}
+
+#top .feature_excerpt{
+border-top:1px solid #595959;
+}
+
+.position_excerpt, #top #featured .feature_excerpt {
+background:none repeat scroll 0 0 #000;
+}
+
+#top #featured a{
+color:#eee;
+}
+
+#top .slidecontrolls span{
+background:transparent url(../images/skin1/slide_controlls.png) no-repeat top right;
+}
+
+#top .slidecontrolls .active_item, #top .slidecontrolls span:hover{
+background:transparent url(../images/skin1/slide_controlls.png) no-repeat top left;
+}
+
+.newsselect{
+border-left:1px solid #595959;
+background: #333;
+}
+
+.newsselect .single_item{
+border-bottom:1px solid #595959;
+}
+
+.newsselect .single_item:hover, .newsselect .active_item{
+background-color: #222;
+text-shadow:1px 1px 0 #000;
+}

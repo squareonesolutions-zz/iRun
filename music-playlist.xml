@@ -1,0 +1,48 @@
+<mp3player>
+	<settings>
+		<width>120</width>
+		<height>110</height>
+		<autoLoad>true</autoLoad>
+		<autoPlay>false</autoPlay>
+		<continuousPlay>true</continuousPlay>
+		<onCompleteJumpToNext>true</onCompleteJumpToNext>
+		<repeat>true</repeat>
+		<shuffleSongs>false</shuffleSongs>
+		<showSongNumber>false</showSongNumber>
+		<initialVolume>70</initialVolume>
+		<bufferTime>5</bufferTime>
+	</settings>
+	<songs>		
+		
+		<song>			
+			<url>songs/natural-one.mp3</url>
+			<songname>Natural One</songname>
+			<artist>Folk Implosion</artist>			
+		</song>	
+		<song>		
+			<url>songs/song-2.mp3</url>
+			<songname>Song 2</songname>
+			<artist>Blur</artist>			
+		</song>
+		<song>			
+			<url>songs/technologic.mp3</url>
+			<songname>Technologic</songname>
+			<artist>Daft Punk</artist>			
+		</song>
+		<song>			
+			<url>songs/good-vibrations.mp3</url>
+			<songname>Good Vibrations</songname>
+			<artist>Marky Mark</artist>			
+		</song>	
+		<song>			
+			<url>songs/looking-out-my-backdoor.mp3</url>
+			<songname>Looking Out My Backdoor</songname>
+			<artist>Creedence Clearwater Revival</artist>			
+		</song>	
+		<song>			
+			<url>songs/around-the-bend.mp3</url>
+			<songname>Around The Bend</songname>
+			<artist>The Asteroids Galaxy Tour</artist>			
+		</song>			
+	</songs>
+</mp3player>

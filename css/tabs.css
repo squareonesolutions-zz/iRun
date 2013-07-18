@@ -1,0 +1,115 @@
+
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+/******* GENERAL RESET *******/
+
+/******* MENU *******/
+#container{
+	margin: 2em auto;
+	width: 800px;
+}
+#container ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#container ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#container ul.menu li{
+	font-weight: 700;
+	display: block;
+	padding: 15px 20px 15px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #4b4d4d;
+	cursor: pointer;
+}
+#container ul.menu li:hover{
+	padding: 15px 20px 30px 10px;
+	margin-top: -15px;
+}
+#container ul.menu li.active{
+	background: #fff;
+	top: 1px;
+	border-bottom: 0;
+	color: #c10014;
+	padding: 15px 20px 30px 10px;
+	margin-top: -15px;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.content{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+.content h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 48px;
+	padding: 10px 10px 0px 45px;
+	font-size: 18px;
+}
+/******* /CONTENT *******/
+/******* TAB1 *******/
+.content.tab1 h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+.content.tab1{
+	display: block;
+}
+/******* /TAB1 *******/
+/******* TAB2 *******/
+.content.tab2 h1{
+	background: transparent url(images/tuts.jpg) no-repeat scroll left top;
+}
+.content.tab2{
+	display: none;
+}
+/******* /TAB2 *******/
+/******* TAB3 *******/
+.content.tab3 h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.content.tab3{
+	display: none;
+}
+.content.tab3 a{
+	color: #c10014;
+}
+/******* /TAB3 *******/
+
+
+
+
+
+
+
+/******* ADDITIONAL STYLES *******/
+
+.content.tab1 img.tugged-right {
+	
+	margin-right: -10px !important;
+}
+
+
+
+/******* /LINKS *******/

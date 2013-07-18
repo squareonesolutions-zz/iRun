@@ -1,0 +1,121 @@
+<!-- community_bar begin -->
+	<div class="community-container"> 
+        <div id="rt-top">
+<div class="community_bar">	
+                <h2>Community Bar</h2>
+                <div class="comm_grid1">
+                	<p><strong>From the blog...</strong></p>
+        			<p>
+                    
+                    <div id="feeddiv"></div>
+                    <br />
+ 		            <a href="https://irunearphones.com/blog/" >View More...</a></p>
+                    <script type="text/javascript">
+        
+                         var feedcontainer=document.getElementById("feeddiv")
+                         var feedurl="http://irunearphones.com/blog/?feed=rss"
+                         var feedlimit=5
+                         var rssoutput="<ul>"
+                        
+                         function rssfeedsetup(){
+                         var feedpointer=new google.feeds.Feed(feedurl)  	//Google Feed API method
+                         feedpointer.setNumEntries(feedlimit) //Google Feed API method
+                         feedpointer.load(displayfeed) //Google Feed API method
+                         }
+                        
+                         function displayfeed(result){
+                         if (!result.error){
+                         var thefeeds=result.feed.entries
+                         for (var i=0; i<thefeeds.length; i++)
+                         rssoutput+="<li><a href='" + thefeeds[i].link + "' class='blog-leaders'>" +  thefeeds[i].title +  	"</a></li>"
+                         rssoutput+="</ul>"
+                         feedcontainer.innerHTML=rssoutput
+                         }
+                         else
+                         alert("Error fetching feeds!")
+                         }
+                        
+                         window.onload=function(){
+                         rssfeedsetup()
+                         } 
+                    </script>
+        		
+                
+                
+                
+      </div>
+      
+                
+                
+    <div class="comm_grid2">Newsletter</div>
+    
+
+    
+    <div class="comm_grid3">
+                	<script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('06d755f6-d386-4950-ade7-d47510eccd3c');</script>
+                    <noscript>
+                    <p>OUR FANS GIVE US LOVE:<br />
+                    <br />
+                    <a href="file:///Big Daddy/Users/Adam/Desktop/WWW/iRun/testimonials.html">Read testimonials</a><br />
+                    <a href="http://www.youtube.com/user/irunearphones" target="_blank">Watch video statements</a></p> 
+                    <br>
+                    Not seeing a widget?
+                    <br>
+                    <a href="http://docs.widgetbox.com/using-widgets/installing-widgets/why-cant-i-see-my-widget/">Click here to find out why.</a>
+                	</noscript>
+    </div>
+    
+    
+    
+    <div>OUR FANS GIVE US LOVE:</div>
+    <br />
+    
+    <div class="comm_grid4">
+        <div align="center">
+          <p><a href="#" class="centered"><img src="../images-new/social/white/facebook.png" width="40" height="40" hspace="2" border="0" /></a><a href="http://twitter.com/irunearphones" target="_blank" class="centered">
+            <br>
+            <img src="../images-new/social/white/twitter.png" width="40" height="40" hspace="2" border="0" /></a>
+            <br />
+            <a href="http://irunearphones.com/blog/feed/rss/" target="_blank" class="centered"><img src="../images-new/social/white/rss.png" width="40" height="40" hspace="2" border="0" /></a><a href="http://www.youtube.com/user/irunearphones" class="centered">
+              <br>
+              <img src="../images-new/social/white/vimeo.png" width="40" height="40" hspace="2" border="0" /></a></p>
+        </div>
+    </div>
+
+
+	<div class="comm_grid5" align="center">
+    	<div id="fb-root" align="center" style="text-align:center !important"></div>
+			<script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            
+            <div class="fb-like" data-href="http://www.facebook.com/pages/iRun-High-Performance-Earphones/257977297567862" data-send="true" data-layout="box_count" data-width="60" data-show-faces="false" data-font="verdana"></div>
+            <br /><br />
+            <a href="https://twitter.com/irunearphones" class="twitter-follow-button" data-button="grey" data-text-color="#666666" data-link-color="#00AEFF" data-width="65px">Follow @irunearphones</a>
+<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+		</div>
+     
+     
+     
+    <div class="comm_grid6">
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-facepile" data-href="http://www.facebook.com/pages/iRun-High-Performance-Earphones/257977297567862" data-width="200" data-max-rows="6"></div>
+      </div>
+      
+      
+      
+            </div>
+    	</div>
+	</div>
+<!-- community_bar end -->

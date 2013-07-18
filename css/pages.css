@@ -1,0 +1,399 @@
+
+
+
+/* ------- GLOBAL ------- */
+
+
+@font-face {
+    font-family: 'iRunFont';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.iRun-font {
+    font-family: 'iRunFont', 'Impact', 'Charcoal', 'Verdana';
+}
+
+.alignRight 		{		text-align: right;		}
+.alignLeft 		{		text-align: left;;		}
+.paddingRight 	{		padding-right: 15px;		}
+.paddingLeft 		{		padding-left: 15px;		}
+.floatRight 		{		float: right;				}
+.floatLeft 		{		float: left;				}
+
+a.colorBlack, .colorBlack		{		color: #000000;			}
+
+a.colorWhite, .colorWhite		{		color: #FFFFFF;			}
+
+
+img.spacing-small, a.spacing-small { margin: 0px 10px 10px 10px; }
+
+.box-inset_light {
+	margin:10px;
+	padding:10px;
+	color:#555555;
+	background: #f5f7f7;
+	border: 0px;
+	border-left:2px solid #f0f0f0;
+}
+
+.fine-print {
+	font-size: 9px;
+	text-align: justify;
+}
+
+.big {
+	font-size: 18px;
+}
+.big1 {
+	font-size: 22px;
+}
+.big2 {
+	font-size: 26px;
+}
+.big3 {
+	font-size: 28px;
+}
+.big4 {
+	font-size: 32px;
+}
+.big5 {
+	font-size: 36px;
+}
+.big6 {
+	font-size: 42px;
+}
+.small {
+	font-size: 12px;
+}
+
+
+
+
+.action-area {
+	top: 104px;
+	left: 0px;
+	min-height: 180px;
+	padding: 15px;
+	color: #FFFFFF;
+	vertical-align: top;
+}
+
+a.watchVideoLink {
+	color: #a40b24;
+	font-size: 48px;
+	position:absolute;
+	top: 395px;
+	left:230px;
+}
+a.watchVideoLink:hover {
+	color: #ffffff;
+}
+
+
+
+
+a.feature-spot span, a.feature-spot2 span { display: none;	}
+
+a.feature-spot {
+	position: absolute;
+	top: 125px;
+	left: 0px;
+	display: block;
+	width: 875px;
+	height: 170px;
+	background: transparent url(../images/feature-spots/free-shipping.png) no-repeat;
+}
+
+a.feature-spot-false:hover {
+	position: absolute;
+	top: 140px;
+	left: 0px;
+	background: transparent url(../images/feature-spots/free-shipping-over.png) no-repeat;
+}
+
+a.feature-spot2 {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	display: block;
+	width: 875px;
+	height: 220px;
+	background: transparent url(../images/feature-spots/year-of-the-dragon.png) no-repeat;
+}
+
+a.feature-spot2-false:hover {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	background: transparent url(../images/feature-spots/year-of-the-dragon-over.png) no-repeat;
+}
+
+
+
+.news-ticker {
+	display: none;
+}
+
+.contact-info {
+	color: #aaaaaa;
+	font-family: iRunFont, Impact, Verdana, Sans serif;
+	font-size: 15px;
+	position: absolute;
+	top: 80px;
+	left: 705px;
+	text-align: right;
+	line-height: 1.0;
+}
+.contact-info a {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+.contact-info a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+.athletes-title {
+	font-size:22px;
+	text-align: center;
+}
+.athletes-accomplishments {
+	font-size: 10px;
+	text-align: left;
+	line-height: 15px;
+}
+
+
+
+
+/* ------- CSS3PIE IMPLEMENTATION ------- */
+
+.surface_00 .prettyButton-medium, .surface_01 .prettyButton-medium, .surface_02 .prettyButton-medium, .subsurface_02-main_odd .prettyButton-medium, .subsurface_02-sidebar_odd .prettyButton-medium {
+
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	font-family: iRunFont, Impact, Verdana, Sans serif;
+	font-weight: normal;
+	font-size: 22px;
+	text-align: center;
+	
+	border: 1px solid #000000;
+	padding: 25px 10px;
+	width: 220px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;
+	background: #D50005;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#D50005), to(#960004));
+	background: -webkit-linear-gradient(#D50005, #960004);
+	background: -moz-linear-gradient(#D50005, #960004);
+	background: -ms-linear-gradient(#D50005, #960004);
+	background: -o-linear-gradient(#D50005, #960004);
+	background: linear-gradient(#D50005, #960004);
+	-pie-background: linear-gradient(#D50005, #960004);
+	behavior: url(../css/PIE.htc);
+}
+
+
+.surface_00 .prettyButton-medium:hover, .surface_01 .prettyButton-medium:hover, .surface_02 .prettyButton-medium:hover, .subsurface_02-main_odd .prettyButton-medium:hover, .subsurface_02-sidebar_odd .prettyButton-medium:hover {
+	background: #D20509;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#D50005), to(#960004));
+	background: -webkit-linear-gradient(#D50005, #D50005);
+	background: -moz-linear-gradient(#D50005, #D50005);
+	background: -ms-linear-gradient(#D50005, #D50005);
+	background: -o-linear-gradient(#D50005, #D50005);
+	background: linear-gradient(#D50005, #D50005);
+	-pie-background: linear-gradient(#D50005, #D50005);
+}
+
+
+.surface_00 .prettyButton-small, .surface_01 .prettyButton-small, .surface_02 .prettyButton-small, .subsurface_02-main_odd .prettyButton-small, .subsurface_02-sidebar_odd .prettyButton-small {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	font-family: iRunFont, Impact, Verdana, Sans serif;
+	
+	border: 1px solid #000;
+	padding: 12px 0 6px 0;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-color: #000000;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 2px 2px 3px;
+	background: #D20509;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#D50005), to(#960004));
+	background: -webkit-linear-gradient(#D50005, #960004);
+	background: -moz-linear-gradient(#D50005, #960004);
+	background: -ms-linear-gradient(#D50005, #960004);
+	background: -o-linear-gradient(#D50005, #960004);
+	background: linear-gradient(#D50005, #960004);
+	-pie-background: linear-gradient(#D50005, #960004);
+	behavior: url(../css/PIE.htc);
+}
+
+
+.surface_00 .prettyButton-small:hover, .surface_01 .prettyButton-small:hover, .surface_02 .prettyButton-small:hover, .subsurface_02-main_odd .prettyButton-small:hover, .subsurface_02-sidebar_odd .prettyButton-small:hover {
+	background: #E90B0E;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E90B0E), to(#D50005));
+	background: -webkit-linear-gradient(#E90B0E, #D50005);
+	background: -moz-linear-gradient(#E90B0E, #D50005);
+	background: -ms-linear-gradient(#E90B0E, #D50005);
+	background: -o-linear-gradient(#E90B0E, #D50005);
+	background: linear-gradient(#E90B0E, #D50005);
+	-pie-background: linear-gradient(#E90B0E, #D50005);
+}
+
+
+
+
+
+
+.surface_00 .prettyButton-bluesmall, .surface_01 .prettyButton-bluesmall, .surface_02 .prettyButton-bluesmall, .subsurface_02-main_odd .prettyButton-bluesmall, .subsurface_02-sidebar_odd .prettyButton-bluesmall {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size:22px;
+	display: block;
+	font-family: iRunFont, Impact, Verdana, Sans serif;
+	
+	border: 1px solid #000;
+	padding: 12px 0 6px 0;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-color: #000000;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 2px 2px 3px;
+	background: #61CFFA;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#61CFFA), to(#438DAA));
+	background: -webkit-linear-gradient(#61CFFA, #438DAA);
+	background: -moz-linear-gradient(#61CFFA, #438DAA);
+	background: -ms-linear-gradient(#61CFFA, #438DAA);
+	background: -o-linear-gradient(#61CFFA, #438DAA);
+	background: linear-gradient(#61CFFA, #438DAA);
+	-pie-background: linear-gradient(#61CFFA, #438DAA);
+	behavior: url(../css/PIE.htc);
+}
+
+
+.surface_00 .prettyButton-bluesmall:hover, .surface_01 .prettyButton-bluesmall:hover, .surface_02 .prettyButton-bluesmall:hover, .subsurface_02-main_odd .prettyButton-bluesmall:hover, .subsurface_02-sidebar_odd .prettyButton-bluesmall:hover {
+	background: #55B6DC;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#61CFFA), to(#4CA1C3));
+	background: -webkit-linear-gradient(#61CFFA, #4CA1C3);
+	background: -moz-linear-gradient(#61CFFA, #4CA1C3);
+	background: -ms-linear-gradient(#61CFFA, #4CA1C3);
+	background: -o-linear-gradient(#61CFFA, #4CA1C3);
+	background: linear-gradient(#61CFFA, #4CA1C3);
+	-pie-background: linear-gradient(#61CFFA, #4CA1C3);
+}
+
+
+
+
+.surface_00 .prettyButton-blacksmall, .surface_01 .prettyButton-blacksmall, .surface_02 .prettyButton-blacksmall, .subsurface_02-main_odd .prettyButton-blacksmall, .subsurface_02-sidebar_odd .prettyButton-blacksmall {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	font-family: iRunFont, Impact, Verdana, Sans serif;
+	
+	border: 1px solid #000;
+	padding: 12px 0 6px 0;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-color: #000000;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 2px 2px 3px;
+	background: #333333;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#61CFFA), to(#000000));
+	background: -webkit-linear-gradient(#666666, #000000);
+	background: -moz-linear-gradient(#666666, #000000);
+	background: -ms-linear-gradient(#666666, #000000);
+	background: -o-linear-gradient(#666666, #000000);
+	background: linear-gradient(#666666, #000000);
+	-pie-background: linear-gradient(#666666, #000000);
+	behavior: url(../css/PIE.htc);
+}
+
+
+.surface_00 .prettyButton-blacksmall:hover, .surface_01 .prettyButton-blacksmall:hover, .surface_02 .prettyButton-blacksmall:hover, .subsurface_02-main_odd .prettyButton-blacksmall:hover, .subsurface_02-sidebar_odd .prettyButton-blacksmall:hover {
+	background: #555555;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#999999), to(#000000));
+	background: -webkit-linear-gradient(#999999, #000000);
+	background: -moz-linear-gradient(#999999, #000000);
+	background: -ms-linear-gradient(#999999, #000000);
+	background: -o-linear-gradient(#999999, #000000);
+	background: linear-gradient(#999999, #000000);
+	-pie-background: linear-gradient(#999999, #000000);
+}
+
+
+.buttonSmall {
+	width: 150px;
+}
+
+.buttonMedium {
+	width: 200px;
+}
+
+.buttonLarge {
+	min-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+.prettyLarge {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+
+
+
+.input-background {
+	background: #FF99E5;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#272727), to(#585959));
+	background: -webkit-linear-gradient(#272727, #585959);
+	background: -moz-linear-gradient(#272727, #585959);
+	background: -ms-linear-gradient(#272727, #585959);
+	background: -o-linear-gradient(#272727, #585959);
+	background: linear-gradient(#272727, #585959);
+	-pie-background: linear-gradient(#272727, #585959);
+	behavior: url(PIE.htc);
+}
+/* ------- CSS3PIE IMPLEMENTATION END ------- */
+
+
+
